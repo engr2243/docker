@@ -1,0 +1,11 @@
+CI/CD: A continuous integration and continuous deployment (CI/CD) pipeline is a series of steps that must be performed in order to deliver a new version of software. CI/CD pipelines are a practice focused on improving software delivery throughout the software development life cycle via automation.
+For a detailed overvies, kindly visit:
+1) https://www.redhat.com/en/topics/devops/what-cicd-pipeline
+2) https://www.docker.com/blog/best-practices-for-using-docker-hub-for-ci-cd/
+
+Contains instructions on how to;
+1) Use a sample Docker project as an example to configure GitHub Actions
+2) Set up the GitHub Actions workflow
+3) Optimize your workflow to reduce the number of pull requests and the total build time, and finally,
+4) Push only specific versions to Docker Hub.
+
