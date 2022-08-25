@@ -29,6 +29,10 @@ A.2) Connecting application with container.
   python-docker-dev
 6) curl http://localhost:8000/initdb, curl http://localhost:8000/widgets
 
-B) Docker compose technique
-1) Buil compose file "docker-compose.dev.yml"
+B) Build application with debug mode with Docker compose technique:
+Runnind docker container in debug mode locally with a single command using docker compose. In this example we will run python-docker and the MySQL database. python-docker-dev
+will be started in debug mode by setting up the compose file.
+
+1) write compose file "docker-compose.dev.yml"
+2) docker-compose -f docker-compose.dev.yml up --build
 
