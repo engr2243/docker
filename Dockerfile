@@ -1,4 +1,4 @@
 FROM nginx:alpine
 COPY static /usr/share/nginx/html
-#Changes
+#Changes for minitoring
 LABEL maintainer = "usha.mandya@docker.com"
