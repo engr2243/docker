@@ -5,7 +5,7 @@ on:
       - "v*.*.*"
 # on:
 #   push:
-#     branches: [ cicd ]
+#     branches: [ config-cicd ]
 
 jobs:
   build:
